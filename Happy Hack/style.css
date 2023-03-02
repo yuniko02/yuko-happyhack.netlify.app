@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-swicher{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background1.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header img{
+    width: 900px;
+    margin-top:186px;
+}
+
+header p{
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 42px;
+    display: block;
+    font-family: Futura;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+
+nav ul{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    display: inline;
+}
+
+nav a{
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #3d5cdb;
+}
+
+/* スクロールCSS */
+.fade-in {
+    opacity: 0;
+    transition-duration: 500ms;
+    transition-property: opacity, transform;
+  }
+  
+  .fade-in-down {
+    transform: translate(0, -50px);
+  }
+  
+  .scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+.heading{
+    text-align: center;
+    color: #3d5cbd;
+    font-size: 53px;
+    padding: 40px;
+    font-weight: bold;
+    font-family: Futura;
+}
+
+.introduction-box{
+    display: block;
+}
+
+.introduction-button{
+    color: #fff;
+    font-size: 20px;
+    border-radius: 13px;
+    padding: 10px 45px;
+    line-height: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 165px;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+}
+
+.introduction-button:hover{
+    box-shadow: 0 2px 15px 2px rgba(133, 140, 142, 0.4);
+}
+
+.introduction-button-001{
+    background-color: #3e5dda;
+}
+
+.introduction-button-002{
+    background-color: #FFBF04;
+    margin-left: 165px;
+}
+
+.introduction-box p{
+    width: 400px;
+    height: 230px;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+}
+
+.introduction-register-001{
+    margin:0 50px;
+}
+
+.introduction-register-002{
+    margin:0 50px;
+}
+
+.introduction-image{
+    width: 500px;
+    height: 330px;
+}
+
+.introduction-image-001{
+    margin-right: 40px;
+    margin-left: -50px;
+}
+
+.introduction-image-002{
+    margin-left: 40px;
+    margin-right: -50px;
+}
+
+.introduction-001{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+
+.introduction-002{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin-bottom: 76px;
+}
+
+.introduction-register{
+    display: block;
+}
+
+#particles-js{
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+canvas{
+	top:0;
+	right:0;
+	z-index:-1;
+
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.courses-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1100px;
+    margin-bottom: 50px;
+}
+
+.courses-box{
+    width: 240px;
+    height: 340px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    margin:10px;
+    flex-direction: column; 
+}
+
+.courses-box img{
+    align-items: center;
+    margin: 10px auto;
+}
+
+.courses-box h3{
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 40px 0;
+    margin: 10px;
+}
+
+.courses-box a{
+    font-size: 13px;
+    color: #fff;
+    width: 150px;
+    display: inline-block;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.courses-box-button-1{
+    background-color: #f16529;
+}
+
+.courses-box-button-2{
+    background-color: #28a9df;
+}
+
+.courses-box-button-3{
+    background-color: #333333;
+}
+
+.courses-box-button-4{
+    background-color: #ff5252;
+}
+
+.courses-box-button-5{
+    background-color: #fed602;
+}
+
+.courses-box-button-6{
+    background-color: #fe7535;
+}
+
+.courses-box-button-7{
+    background-color: #72cedd;
+}
+
+#courses-box-button{
+    top: 255px;
+    left: 35px;
+}
+
+#courses-box-button:hover{
+    box-shadow: 0 2px 15px 2px rgba(133, 140, 142, 0.4);
+}
+
+#courses-box-h3{
+    top: 188px;
+    left: 40px;
+}
+
+
+#images{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.viewport{
+    overflow: visible!important;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.slick img{
+    width: 287px;
+}
+
+.access-wrap{
+    text-align: center;
+    margin: 0 416px 46px;
+    style:border 0 " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+}
+
+.access-wrap iframe{
+    width: 600px;
+    height: 450px;
+}
+
+.slick-prev{
+    left: 2;
+    z-index: 1;
+}
+
+.slick-next{
+    right:2;
+}
+
+footer{
+    text-align: center;
+    color: #3d5cbd;
+    font-size: 16px;
+    padding: 20px;
+    font-family: Futura;
+}
+
+
+/*~480px：スマホ縦-----------------*/
+@media screen and (max-width: 599px){
+li a{
+        display: none;
+}
+
+.heading{
+    font-size: 32px;
+    padding: 40px 40px 20px;
+}
+
+header img{
+    width: 70vw;
+    margin-top: 350px;
+}
+
+header p{
+    font-size: 16px;
+    margin: 45px auto;
+}
+
+.introduction-image{
+    width: 350px;
+    height: 230px;
+}
+
+.introduction-image-001{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.introduction-image-002{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction-box p{
+    font-size: 13px;
+    margin:0 17px;
+    width: 315px;
+    height: auto;
+}
+
+.introduction-register-001{
+    margin: 0;
+}
+
+.introduction-button{
+    margin-left:100px;
+    font-size: 15px;
+}
+
+.courses-box{
+    width: 160px;
+    height: 220px;
+}
+
+.courses-boxes{
+    width: 390px;
+    margin: 50px;
+}
+
+.courses-box img{
+    margin: 25px 25px 0;
+    width: 40%
+}
+
+.courses-box a{
+    font-size: 12px;
+    width: 120px;
+}
+
+.courses-box h3{
+    font-size: 14px;
+    padding: 20px 0px 0;
+    margin: 0;
+}
+
+.viewport{
+    width: 312px;
+}
+
+.slick img{
+    width: 312px;
+}
+
+.access-wrap{
+margin: 0 0 46px;
+}
+
+.access-wrap iframe{
+    width: 390px;
+    height: 290px;
+}
+
+
+}
